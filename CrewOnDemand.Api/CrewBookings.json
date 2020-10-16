@@ -1,0 +1,53 @@
+{
+  "CrewBookings": [
+  {
+    "CrewId": 1,
+    "Name": "Andy",
+    "Bookings": [
+      {
+        "ID": 200,
+        "StartLocation": "Munich",
+        "EndLocation": "Berlin",
+        "Departure": "2020-05-01T09:00:00Z",
+        "Return": "2020-05-01T11:00:00Z",
+        "Duration": 2
+      }
+    ]
+  },
+  {
+    "CrewId": 2,
+    "Name": "Betty",
+    "Bookings": [
+      {
+        "ID": 300,
+        "StartLocation": "Munich",
+        "EndLocation": "Berlin",
+        "Departure": "2020-05-01T09:00:00Z",
+        "Return": "2020-05-01T13:00:00Z",
+        "Duration": 4
+      },
+      {
+        "ID": 303,
+        "StartLocation": "Munich",
+        "EndLocation": "Berlin",
+        "Departure": "2020-05-02T09:00:00Z",
+        "Return": "2020-05-02T13:00:00Z",
+        "Duration": 4
+      }
+    ]
+  },
+  {
+    "CrewId": 5,
+    "Name": "Elvis",
+    "Bookings": [
+      {
+        "ID": 100,
+        "StartLocation": "Berlin",
+        "EndLocation": "Munich",
+        "Departure": "2020-05-02T09:00:00Z",
+        "Return": "2020-05-02T11:00:00Z",
+        "Duration": 2
+      }
+    ]
+  }]
+}
